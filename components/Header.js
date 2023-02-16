@@ -27,9 +27,9 @@ const Header = () => {
 
     useEffect(()=> { 
         const changeColor = () => {
-            if (window.scrollY >= 90) {
-                setColor(light1)
-                setTextColor(dark1)
+            if (window.scrollY >= 10) {
+                setColor(dark1)
+                setTextColor(light1)
                 
             } else {
                 setColor('transparent')
@@ -43,7 +43,7 @@ const Header = () => {
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-5 pt-0 text-light1'>
             <Link href='/'>
-                <LogoSVG size={85} color={dark1}/>
+                <LogoSVG size={85} color={textColor}/>
             </Link>
             <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
                 <li className='p-4 hover:underline underline-offset-1'>
