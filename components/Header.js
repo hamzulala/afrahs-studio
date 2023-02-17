@@ -46,14 +46,14 @@ const Header = () => {
                 <LogoSVG size={85} color={textColor}/>
             </Link>
             <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
-                <li className='p-4 hover:underline underline-offset-1'>
+                <li className='p-4 hover:underline underline-offset-1 hover:text-dark2 ease-in duration-100'>
                     <Link href='/'>Home</Link>
                 </li>
-                <li className='p-4 hover:underline underline-offset-1'>
+                <li className='p-4 hover:underline underline-offset-1 hover:text-dark2 ease-in duration-100'>
                     <Link href='/portfolio'>Portfolio</Link>
                 </li>
-                <li className='p-4 hover:underline underline-offset-1'>
-                    <Link href='/contact'>Contact</Link>
+                <li className='p-4 hover:underline underline-offset-1 hover:text-dark2 ease-in duration-100'>
+                    <Link href='/contact'>About</Link>
                 </li>
             </ul>
 
@@ -65,14 +65,14 @@ const Header = () => {
             {/* Mobile Menu */}
             <div className={nav ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-dark1 text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-dark1 text-center ease-in duration-300'}>
                 <ul>
-                    <li className='p-4 text-4xl hover:text-light3'>
-                        <Link href='/'>Home</Link>
+                    <li className='p-4 text-4xl'>
+                        <Link href='/'><h3>Home</h3></Link>
                     </li>
-                    <li className='p-4 text-4xl hover:text-light3'>
-                        <Link href='/portfolio'>Portfolio</Link>
+                    <li className='p-4 text-4xl'>
+                        <Link href='/portfolio'><h3>Portfolio</h3></Link>
                     </li>
-                    <li className='p-4 text-4xl hover:text-light3'>
-                        <Link href='/contact'>Contact</Link>
+                    <li className='p-4 text-4xl'>
+                        <Link href='/contact'><h3>About</h3></Link>
                     </li>
                 </ul>
             </div>

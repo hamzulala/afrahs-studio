@@ -1,3 +1,5 @@
+const { SERVER_FILES_MANIFEST } = require('next/dist/shared/lib/constants')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -16,7 +18,11 @@ module.exports = {
       dark1 : '#586F6B',
       dark2 : '#7F9183'
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        ivymode: "'ivymode', sans-serif",
+      }
+    },
   },
   plugins: [],
 }
