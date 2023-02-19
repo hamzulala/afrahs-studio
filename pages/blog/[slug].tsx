@@ -27,7 +27,7 @@ const ProjectPost = (props: Props) => {
       <div className='flex space-x-5 overflow-x-scroll h-96 p-5 snap-x snap-mandatory items-center'>
         {
           projects[key]?.images.map((image) => (
-              <img src={image} alt={projects[key].title} className='rounded-lg snap-center object-cover h-full w-full'/>
+              <img key={key} src={image} alt={projects[key].title} className='rounded-lg snap-center object-cover h-full w-full'/>
           ))
         }
       </div>
