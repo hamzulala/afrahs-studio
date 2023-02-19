@@ -10,7 +10,7 @@ const Hero = () => {
         <div className='fill-dark1 hidden md:contents'>
             <HeroDesktop/>
         </div>
-        <div className='md:hidden'>
+        <div className='md:hidden tablet:h-1/2 top-20'>
             <HeroMobile/>
         </div>
     </div>

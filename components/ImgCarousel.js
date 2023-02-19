@@ -32,7 +32,7 @@ const ImgCarousel = () => {
       }, []);
 
   return (
-    <div className='pt-2 p-5 md:w-1/2'>
+    <div className='pt-2 p-5 w-full h-full'>
         <img src={projects[currentImageIndex].images[0]} alt="Image" className='rounded-lg'/>
         <h3 className='text-sm text-left tracking-wide font-semibold pt-1'>{projects[currentImageIndex].title} : </h3>
         <p className='text-xs text-left font-thin tracking-wide pt-1'>{projects[currentImageIndex].description}</p>

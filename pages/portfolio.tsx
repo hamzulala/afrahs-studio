@@ -15,7 +15,7 @@ const portfolio = (props: Props) => {
          */}
         <div className='absolute columns-2 md:columns-3 lg:columns-4 p-4 top-20 bg-light1'>
           {projects.map((project) => (
-            <ProjectImgLink key={project.id} imgLink={project.images[0]} title={project.title}/>
+            <ProjectImgLink key={project.id} project={project}/>
           ))}
         </div>
     </div>

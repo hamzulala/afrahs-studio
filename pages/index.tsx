@@ -21,7 +21,7 @@ export default function Home() {
         </style>
       </Head>
 
-      <div className='md:hidden'>
+      <div className='md:hidden overflow-y-auto '>
         <Header/>
       </div>
 
