@@ -53,7 +53,7 @@ const Header = ({primaryColor = '#DDD5D0', secondaryColor = '#586F6B'}) => {
 
             {/* Mobile Button */}
             <div onClick={handleNav} className='block sm:hidden z-10 pt-3'>
-                {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} style={{color: `${textColor}`}} />}
+                {nav ? <AiOutlineClose size={20} style={{color: `${primaryColor}`}}/> : <AiOutlineMenu size={20} style={{color: `${textColor}`}} />}
             </div>
 
             {/* Mobile Menu */}

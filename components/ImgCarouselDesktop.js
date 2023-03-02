@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React, { useState, useEffect } from 'react';
 import projects from '@/data/projects.json'
 import Link from 'next/link';
+import { motion } from 'framer-motion'
 
 const ImgCarouselDesktop = ({projectId}) => {
     /* 
