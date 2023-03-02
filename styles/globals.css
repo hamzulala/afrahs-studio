@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://use.typekit.net/ppc6pkj.css");
 
 @layer base {
   html {

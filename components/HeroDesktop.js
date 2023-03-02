@@ -19,9 +19,9 @@ const HeroDesktop = ({projectId}) => {
                 <h2 className='hidden hover:underline underline-offset-1 tracking-widest md:contents'><Link href='/contact'>About</Link></h2>   
             </div>
         </motion.div> 
-        <motion.div className=' flex items-center justify-center m-20' initial={{ opacity: 0, scale: 0.6 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, delay: 0.5, ease: [0, 0.71, 0.2, 1.01]}}>
+        <div className=' flex items-center justify-center m-20'>
             <ImgCarouselDesktop projectId={projectId}/>
-        </motion.div>   
+        </div>   
     </div>
   )
 }

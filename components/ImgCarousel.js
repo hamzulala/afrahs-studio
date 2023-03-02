@@ -15,13 +15,12 @@ const ImgCarousel = ({projectId}) => {
      */
 
   return (
-    <motion.div className='pt-2 p-5 max-w-sm max-h-sm ease-in duration-300' initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5}}>
+    <motion.div className='pt-2 p-5 max-w-sm max-h-sm ease-in duration-300' initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.3, delay: 0.3}} key={projectId}>
       <Link href='/blog/[slug]' as={`/blog/${projectId}`}>
         <img src={projects[projectId].images[0]} alt="Image" className='rounded-lg'/>
         <h3 className='text-sm text-left tracking-wide font-semibold pt-1 ease-in duration-300'>{projects[projectId].title} : </h3>
         <p className='text-xs text-left font-thin tracking-wide pt-1 ease-in duration-300'>{projects[projectId].description}</p>
-      </Link>
-        
+      </Link> 
     </motion.div>
   )
 }

@@ -18,7 +18,7 @@ const Hero = () => {
 
     const intervalId = setInterval(() => {
       setProjectId(prevIndex => (prevIndex + 1) % projects.length);
-    }, 3000);
+    }, 5000);
 
     return () => {
       clearInterval(intervalId);
