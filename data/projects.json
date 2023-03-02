@@ -2,6 +2,8 @@
     {
         "id": 0,
         "title": "Gucci",
+        "primaryColor": "#4C061D",
+        "secondaryColor": "#B4C292",
         "images": [
             "/images/gucci.jpg", "/images/gucci-2.jpeg", "/images/gucci-3.jpeg", "/images/gucci-4.jpeg", "/images/gucci-5.jpeg", "/images/gucci-6.jpeg"
         ],
@@ -10,6 +12,8 @@
     {
         "id": 1,
         "title":"Lazy-su",
+        "primaryColor": "#2B2D42",
+        "secondaryColor": "#E86A92",
         "images": [
             "/images/Lazy-su.png", "/images/Lazy-su-2.png", "/images/Lazy-su-3.png", "/images/Lazy-su-4.jpeg", "/images/Lazy-su-5.jpeg"
         ],
@@ -18,6 +22,8 @@
     {
         "id": 2,
         "title": "OSH",
+        "primaryColor": "#E85D75",
+        "secondaryColor": "#FFFFFC",
         "images": [
             "/images/OSH.jpg", "/images/OSH-2.jpeg"
         ],
@@ -26,6 +32,8 @@
     {
         "id": 3,
         "title": "RMIT",
+        "primaryColor": "#70161E",
+        "secondaryColor": "#C3D898",
         "images": [
             "https://www.lyonsarch.com.au/wp-content/uploads/2020/01/2262-urban-design_New-Academic-Street_Lyons_Peter-Bennetts_04.jpg",
             "/images/RMIT.png", 
@@ -37,6 +45,8 @@
     {
         "id": 4,
         "title": "DEMO-1",
+        "primaryColor": "#4C956C",
+        "secondaryColor": "#FFC9B9",
         "images": [
             "https://images.unsplash.com/photo-1537726235470-8504e3beef77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80", 
             "https://images.unsplash.com/photo-1616046229478-9901c5536a45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80", 
@@ -47,6 +57,8 @@
     {
         "id": 5,
         "title": "DEMO-2",
+        "primaryColor": "#34252F",
+        "secondaryColor": "#BEC5AD",
         "images": [
             "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", 
             "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80", 
@@ -57,6 +69,8 @@
     {
         "id": 6,
         "title": "DEMO-3",
+        "primaryColor": "#34252F",
+        "secondaryColor": "#BEC5AD",
         "images": [
             "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80", 
             "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1213&q=80", 
@@ -69,6 +83,8 @@
     {
         "id": 7,
         "title": "DEMO-4",
+        "primaryColor": "#34252F",
+        "secondaryColor": "#BEC5AD",
         "images": [
             "https://images.unsplash.com/photo-1622372738946-62e02505feb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=832&q=80", 
             "https://images.unsplash.com/photo-1618219944342-824e40a13285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80", 
@@ -79,6 +95,8 @@
     {
         "id": 8,
         "title": "DEMO-5",
+        "primaryColor": "#34252F",
+        "secondaryColor": "#BEC5AD",
         "images": [
             "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80", 
             "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80", 
@@ -90,6 +108,8 @@
     {
         "id": 9,
         "title": "DEMO-6",
+        "primaryColor": "#34252F",
+        "secondaryColor": "#BEC5AD",
         "images": [
             "https://images.unsplash.com/photo-1606744888344-493238951221?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80", 
             "https://images.unsplash.com/photo-1615874694520-474822394e73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80", 
@@ -100,6 +120,8 @@
     {
         "id": 10,
         "title": "DEMO-7",
+        "primaryColor": "#34252F",
+        "secondaryColor": "#BEC5AD",
         "images": [
             "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80", 
             "https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80", 
@@ -110,6 +132,8 @@
     {
         "id": 11,
         "title": "DEMO-8",
+        "primaryColor": "#34252F",
+        "secondaryColor": "#BEC5AD",
         "images": [
             "https://images.unsplash.com/photo-1581783458534-001a466b5487?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80", 
             "https://images.unsplash.com/photo-1600493504591-aa1849716b36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80", 
@@ -120,6 +144,8 @@
     {
         "id": 12,
         "title": "DEMO-9",
+        "primaryColor": "#34252F",
+        "secondaryColor": "#BEC5AD",
         "images": [
             "https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80", 
             "https://images.unsplash.com/photo-1600210491369-e753d80a41f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80", 

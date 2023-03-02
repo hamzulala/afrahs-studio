@@ -21,9 +21,9 @@ const ProjectPost = (props: Props) => {
   
   */
   return (
-    <div>
-      <Header/>
-      <h1 className='mt-20 text-5xl text-center p-10 text-dark1'>{projects[key]?.title}</h1>
+    <div style={{backgroundColor: `${projects[key]?.primaryColor}`}} className='h-screen w-screen'>
+      <Header primaryColor={projects[key]?.primaryColor} secondaryColor={projects[key]?.secondaryColor}/>
+      <h1 style={{color: `${projects[key]?.secondaryColor}`}} className='mt-20 text-5xl text-center p-10'>{projects[key]?.title}</h1>
       <div className='flex space-x-5 overflow-x-scroll h-96 p-5 snap-x snap-mandatory items-center'>
         {
           projects[key]?.images.map((image) => (
@@ -31,7 +31,7 @@ const ProjectPost = (props: Props) => {
           ))
         }
       </div>
-      <p className='text:sm p-4'>
+      <p className='text:sm p-4' style={{color: `${projects[key]?.secondaryColor}`}}>
         {projects[key]?.description}
       </p>
     </div>
