@@ -69,8 +69,8 @@
     {
         "id": 6,
         "title": "DEMO-3",
-        "primaryColor": "#34252F",
-        "secondaryColor": "#BEC5AD",
+        "primaryColor": "#7161EF",
+        "secondaryColor": "#EFD9CE",
         "images": [
             "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80", 
             "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1213&q=80", 
@@ -83,8 +83,8 @@
     {
         "id": 7,
         "title": "DEMO-4",
-        "primaryColor": "#34252F",
-        "secondaryColor": "#BEC5AD",
+        "primaryColor": "#D6EDFF",
+        "secondaryColor": "#478978",
         "images": [
             "https://images.unsplash.com/photo-1622372738946-62e02505feb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=832&q=80", 
             "https://images.unsplash.com/photo-1618219944342-824e40a13285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80", 
@@ -95,8 +95,8 @@
     {
         "id": 8,
         "title": "DEMO-5",
-        "primaryColor": "#34252F",
-        "secondaryColor": "#BEC5AD",
+        "primaryColor": "#56494C",
+        "secondaryColor": "#AFBFC0",
         "images": [
             "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80", 
             "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80", 
@@ -108,8 +108,8 @@
     {
         "id": 9,
         "title": "DEMO-6",
-        "primaryColor": "#34252F",
-        "secondaryColor": "#BEC5AD",
+        "primaryColor": "#464E47",
+        "secondaryColor": "#F1FFFA",
         "images": [
             "https://images.unsplash.com/photo-1606744888344-493238951221?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80", 
             "https://images.unsplash.com/photo-1615874694520-474822394e73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80", 
@@ -120,8 +120,8 @@
     {
         "id": 10,
         "title": "DEMO-7",
-        "primaryColor": "#34252F",
-        "secondaryColor": "#BEC5AD",
+        "primaryColor": "#89023E",
+        "secondaryColor": "#F3E1DD",
         "images": [
             "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80", 
             "https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80", 
@@ -132,8 +132,8 @@
     {
         "id": 11,
         "title": "DEMO-8",
-        "primaryColor": "#34252F",
-        "secondaryColor": "#BEC5AD",
+        "primaryColor": "#002500",
+        "secondaryColor": "#EDCBB1",
         "images": [
             "https://images.unsplash.com/photo-1581783458534-001a466b5487?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80", 
             "https://images.unsplash.com/photo-1600493504591-aa1849716b36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80", 
@@ -144,8 +144,8 @@
     {
         "id": 12,
         "title": "DEMO-9",
-        "primaryColor": "#34252F",
-        "secondaryColor": "#BEC5AD",
+        "primaryColor": "#8B575C",
+        "secondaryColor": "#F6E4F6",
         "images": [
             "https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80", 
             "https://images.unsplash.com/photo-1600210491369-e753d80a41f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80", 
