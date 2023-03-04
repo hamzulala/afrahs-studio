@@ -27,7 +27,7 @@ const HeroDesktop = ({projectId}) => {
         }
       }
 
-      handleResize()
+      handleResize() //call it once to set the initial size
   
       window.addEventListener('resize', handleResize)
       window.addEventListener('DOMContentLoaded', handleResize)
