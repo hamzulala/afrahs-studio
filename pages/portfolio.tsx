@@ -6,10 +6,10 @@ import projects from '@/data/projects.json'
 
 type Props = {}
 
-const portfolio = (props: Props) => {
+const Portfolio = (props: Props) => {
 
-  const [primaryColor, setPrimaryColor] = useState<string>('#B3A394');
-  const [secondaryColor, setSecondaryColor] = useState<string>('#102542');
+  const [primaryColor, setPrimaryColor] = useState<string>('#B3A394')
+  const [secondaryColor, setSecondaryColor] = useState<string>('#102542')
 
   const handleProjectHover = (primary: string = '#B3A394', secondary: string = '#102542') => { //Handles the hover effect on the project images
     setPrimaryColor(primary);
@@ -32,4 +32,4 @@ const portfolio = (props: Props) => {
   )
 }
 
-export default portfolio
+export default Portfolio
