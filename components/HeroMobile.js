@@ -1,5 +1,5 @@
 import React from 'react'
-import ImgCarousel from './ImgCarousel'
+import ImgCarouselMobile from './ImgCarouselMobile'
 import projects from '@/data/projects.json'
 import Header from './Header'
 
@@ -13,7 +13,7 @@ const HeroMobile = ({projectId}) => {
       <div className='md:hidden overflow-y-auto '>
         <Header primaryColor={projects[projectId].primaryColor} secondaryColor={projects[projectId].secondaryColor}/>
       </div>
-        <ImgCarousel projectId={projectId}/>
+        <ImgCarouselMobile projectId={projectId}/>
     </div>
   )
 }

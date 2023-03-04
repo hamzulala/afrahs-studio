@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import LogoSVG from './LogoSVG'
-import ImgCarousel from '@/components/ImgCarousel'
 import HeroDesktop from '@/components/HeroDesktop'
 import HeroMobile from '@/components/HeroMobile'
 import projects from '@/data/projects.json'
