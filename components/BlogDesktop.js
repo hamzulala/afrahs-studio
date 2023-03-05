@@ -5,7 +5,7 @@ const BlogDesktop = ({ project }) => {
   return (
     <div className="h-screen grid grid-cols-2 overflow-hidden justify-items-center">
       <motion.div
-        className="p-10"
+        className="p-10 overflow-x-scroll"
         initial={{ opacity: 0, scale: 0.8, x: "-25%" }}
         exit={{ opacity: 0, scale: 0.8, x: "-25%" }}
         animate={{ opacity: 1, scale: 1, x: "0%" }}
