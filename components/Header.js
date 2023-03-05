@@ -23,7 +23,7 @@ const Header = ({ primaryColor = "#DDD5D0", secondaryColor = "#586F6B" }) => {
         setColor(secondaryColor);
         setTextColor(primaryColor);
       } else {
-        setColor(primaryColor);
+        setColor('transparent');
         setTextColor(secondaryColor);
       }
     };
@@ -32,7 +32,7 @@ const Header = ({ primaryColor = "#DDD5D0", secondaryColor = "#586F6B" }) => {
   });
 
   return (
-    <div
+    <motion.div
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
@@ -110,7 +110,7 @@ const Header = ({ primaryColor = "#DDD5D0", secondaryColor = "#586F6B" }) => {
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
