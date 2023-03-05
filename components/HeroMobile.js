@@ -2,6 +2,7 @@ import React from "react";
 import ImgCarouselMobile from "./ImgCarouselMobile";
 import projects from "@/data/projects.json";
 import Header from "./Header";
+import { motion } from "framer-motion";
 
 const HeroMobile = ({ projectId }) => {
   /*
@@ -19,7 +20,9 @@ const HeroMobile = ({ projectId }) => {
           secondaryColor={projects[projectId].secondaryColor}
         />
       </div>
-      <ImgCarouselMobile projectId={projectId} />
+      <motion.div exit={{ opacity: 0, scale: 0.8, y: "20%" }} transition={{ duration: 0.4, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}>
+        <ImgCarouselMobile projectId={projectId} />
+      </motion.div>
     </div>
   );
 };
