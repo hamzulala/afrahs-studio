@@ -39,15 +39,14 @@ const HeroDesktop = ({ projectId }) => {
   }, []);
 
   return (
-    <motion.div
-      className="h-screen grid grid-cols-2 overflow-hidden justify-items-center"
-    >
+    <motion.div className="h-screen grid grid-cols-2 overflow-hidden justify-items-center">
       <motion.div
         className="flex flex-col justify-center m-10"
         style={{ color: `${projects[projectId].secondaryColor}` }}
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
+        exit={{ opacity: 0, scale: 0.8, x: "-20%" }}
+        transition={{ duration: 0.4, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
       >
         <LogoSVG size={logoSize} color={projects[projectId].secondaryColor} />
         <div className="flex justify-around">
@@ -62,9 +61,13 @@ const HeroDesktop = ({ projectId }) => {
           </h2>
         </div>
       </motion.div>
-      <div className=" flex items-center justify-center m-10">
+      <motion.div
+        className=" flex items-center justify-center m-10"
+        exit={{ opacity: 0, scale: 0.8, x: "20%" }}
+        transition={{ duration: 0.4, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
+      >
         <ImgCarouselDesktop projectId={projectId} />
-      </div>
+      </motion.div>
     </motion.div>
   );
 };
