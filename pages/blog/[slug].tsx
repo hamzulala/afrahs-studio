@@ -25,13 +25,13 @@ const ProjectPost = (props: Props) => {
   return (
     <div
       style={{ backgroundColor: `${projects[key]?.primaryColor}` }}
-      className="h-screen w-screen"
+      className="absolute h-screen w-screen"
     >
       <Header
         primaryColor={projects[key]?.primaryColor}
         secondaryColor={projects[key]?.secondaryColor}
       />
-      <div className="md:hidden tablet:h-1/2 top-20">
+      <div className="md:hidden tablet:h-1/2" style={{ backgroundColor: `${projects[key]?.primaryColor}` }}>
         <BlogMobile project={projects[key]} />
       </div>
       <div className="hidden md:contents">

@@ -8,6 +8,7 @@ const BlogMobile = ({ project }) => {
       exit={{ opacity: 0, scale: 0.8, y: "25%" }}
       animate={{ opacity: 1, scale: 1, y: "0%" }}
       transition={{ duration: 0.8, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
+      style={{backgroundColor: `${project?.primaryColor}`}}
     >
       <h1
         style={{ color: `${project?.secondaryColor}` }}
