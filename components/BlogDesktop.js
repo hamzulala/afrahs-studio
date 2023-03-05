@@ -5,7 +5,7 @@ const BlogDesktop = ({ project }) => {
   return (
     <div className="h-screen grid grid-cols-2 overflow-hidden justify-items-center">
       <motion.div
-        className="p-10 overflow-x-scroll"
+        className="mt-20 overflow-x-scroll rounded-lg scrollbar"
         initial={{ opacity: 0, scale: 0.8, x: "-25%" }}
         exit={{ opacity: 0, scale: 0.8, x: "-25%" }}
         animate={{ opacity: 1, scale: 1, x: "0%" }}
@@ -13,7 +13,7 @@ const BlogDesktop = ({ project }) => {
       >
         <h1
           style={{ color: `${project?.secondaryColor}` }}
-          className="mt-20 text-5xl text-center p-10"
+          className="text-5xl text-center pl-10 pr-10 pb-10"
         >
           {project?.title}
         </h1>
