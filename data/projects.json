@@ -1,157 +1,176 @@
 [
-    {
-        "id": 0,
-        "title": "Gucci",
-        "primaryColor": "#4C061D",
-        "secondaryColor": "#B4C292",
-        "images": [
-            "/images/gucci.jpg", "/images/gucci-2.jpeg", "/images/gucci-3.jpeg", "/images/gucci-4.jpeg", "/images/gucci-5.jpeg", "/images/gucci-6.jpeg"
-        ],
-        "description":"Gucci is an Italian luxury brand of fashion and leather goods. Gucci was founded by Guccio Gucci in Florence in 1921. Gucci is part of the Gucci Group, which is owned by the French holding company Kering."
-    },
-    {
-        "id": 1,
-        "title":"Lazy-su",
-        "primaryColor": "#2B2D42",
-        "secondaryColor": "#E86A92",
-        "images": [
-            "https://images.squarespace-cdn.com/content/v1/56025929e4b04ec82db521cb/1527649774405-M383M41YGVBERYVFAQRF/10_LazySu_lores.jpg?format=1500w", "https://images.squarespace-cdn.com/content/v1/56025929e4b04ec82db521cb/1491695915510-G9KAS7PSNSIV6MIDJ4X2/lazy-canberra-brandworks?format=2500w", "https://images.squarespace-cdn.com/content/v1/56025929e4b04ec82db521cb/1527649736006-7W5T3A3VP4H241K77TXS/8_LazySu_lores.jpg?format=1500w", "https://images.squarespace-cdn.com/content/v1/56025929e4b04ec82db521cb/1491695772518-0PXJXLVCVFMPLE4FSER0/lazy-canberra-brandworks?format=2500w", "https://images.squarespace-cdn.com/content/v1/56025929e4b04ec82db521cb/1491446846855-OIJ64M439V60GP2UO640/image-asset.jpeg?format=1500w", "https://images.squarespace-cdn.com/content/v1/56025929e4b04ec82db521cb/1491695877991-3IK4LPNB9JCW5K3C5KLJ/lazy-canberra-brandworks?format=2500w"
-        ],
-        "description":"Funky Pan-Asian eatery offering a raw bar, bao burgers & small plates, plus hearty homestyle mains."
-    },
-    {
-        "id": 2,
-        "title": "OSH",
-        "primaryColor": "#E85D75",
-        "secondaryColor": "#FFFFFC",
-        "images": [
-            "/images/OSH.jpg", "/images/OSH-2.jpeg"
-        ],
-        "description":"A modern study space is functional, minimalist, and sleek, featuring ergonomic furniture, high-tech equipment, natural lighting, and greenery to create a calming, focused, and productive ambiance."
-    },
-    {
-        "id": 3,
-        "title": "RMIT",
-        "primaryColor": "#70161E",
-        "secondaryColor": "#C3D898",
-        "images": [
-            "https://www.lyonsarch.com.au/wp-content/uploads/2020/01/2262-urban-design_New-Academic-Street_Lyons_Peter-Bennetts_04.jpg",
-            "/images/RMIT.png", 
-            "/images/RMIT-2.png", 
-            "/images/RMIT-3.png"
-        ],
-        "description":"RMIT is a global university of technology and design and Australia's largest tertiary institution."
-    },
-    {
-        "id": 4,
-        "title": "DEMO-1",
-        "primaryColor": "#4C956C",
-        "secondaryColor": "#FFC9B9",
-        "images": [
-            "https://images.unsplash.com/photo-1537726235470-8504e3beef77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80", 
-            "https://images.unsplash.com/photo-1616046229478-9901c5536a45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80", 
-            "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-        ],
-        "description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin"
-    },
-    {
-        "id": 5,
-        "title": "DEMO-2",
-        "primaryColor": "#34252F",
-        "secondaryColor": "#BEC5AD",
-        "images": [
-            "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", 
-            "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80", 
-            "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-        ],
-        "description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin"
-    },
-    {
-        "id": 6,
-        "title": "DEMO-3",
-        "primaryColor": "#7161EF",
-        "secondaryColor": "#EFD9CE",
-        "images": [
-            "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80", 
-            "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1213&q=80", 
-            "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-            "https://images.unsplash.com/photo-1596204976717-1a9ff47f74ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-            "https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
-        ],
-        "description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin"
-    },
-    {
-        "id": 7,
-        "title": "DEMO-4",
-        "primaryColor": "#D6EDFF",
-        "secondaryColor": "#478978",
-        "images": [
-            "https://images.unsplash.com/photo-1622372738946-62e02505feb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=832&q=80", 
-            "https://images.unsplash.com/photo-1618219944342-824e40a13285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80", 
-            "https://images.unsplash.com/photo-1618221639244-c1a8502c0eb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-        ],
-        "description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin"
-    },
-    {
-        "id": 8,
-        "title": "DEMO-5",
-        "primaryColor": "#56494C",
-        "secondaryColor": "#AFBFC0",
-        "images": [
-            "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80", 
-            "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80", 
-            "https://images.unsplash.com/photo-1604782206219-3b9576575203?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=697&q=80"
-        ],
-        "description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin"
-    }
-    ,
-    {
-        "id": 9,
-        "title": "DEMO-6",
-        "primaryColor": "#464E47",
-        "secondaryColor": "#F1FFFA",
-        "images": [
-            "https://images.unsplash.com/photo-1606744888344-493238951221?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80", 
-            "https://images.unsplash.com/photo-1615874694520-474822394e73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80", 
-            "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
-        ],
-        "description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin"
-    },
-    {
-        "id": 10,
-        "title": "DEMO-7",
-        "primaryColor": "#89023E",
-        "secondaryColor": "#F3E1DD",
-        "images": [
-            "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80", 
-            "https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80", 
-            "https://images.unsplash.com/photo-1606744824163-985d376605aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
-        ],
-        "description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin"
-    },
-    {
-        "id": 11,
-        "title": "DEMO-8",
-        "primaryColor": "#002500",
-        "secondaryColor": "#EDCBB1",
-        "images": [
-            "https://images.unsplash.com/photo-1581783458534-001a466b5487?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80", 
-            "https://images.unsplash.com/photo-1600493504591-aa1849716b36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80", 
-            "https://images.unsplash.com/photo-1617103996702-96ff29b1c467?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
-        ],
-        "description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin"
-    },
-    {
-        "id": 12,
-        "title": "DEMO-9",
-        "primaryColor": "#8B575C",
-        "secondaryColor": "#F6E4F6",
-        "images": [
-            "https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80", 
-            "https://images.unsplash.com/photo-1600210491369-e753d80a41f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80", 
-            "https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
-        ],
-        "description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin"
-    }
-
+  {
+    "id": 0,
+    "title": "Gucci",
+    "primaryColor": "#4C061D",
+    "secondaryColor": "#B4C292",
+    "images": [
+      "/images/gucci.jpg",
+      "/images/gucci-2.jpeg",
+      "/images/gucci-3.jpeg",
+      "/images/gucci-4.jpeg",
+      "/images/gucci-5.jpeg",
+      "/images/gucci-6.jpeg"
+    ],
+    "short_description": "Gucci is an Italian luxury brand of fashion and leather goods. Gucci was founded by Guccio Gucci in Florence in 1921. Gucci is part of the Gucci Group, which is owned by the French holding company Kering.",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  },
+  {
+    "id": 1,
+    "title": "Lazy-su",
+    "primaryColor": "#2B2D42",
+    "secondaryColor": "#E86A92",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/56025929e4b04ec82db521cb/1527649774405-M383M41YGVBERYVFAQRF/10_LazySu_lores.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/56025929e4b04ec82db521cb/1491695915510-G9KAS7PSNSIV6MIDJ4X2/lazy-canberra-brandworks?format=2500w",
+      "https://images.squarespace-cdn.com/content/v1/56025929e4b04ec82db521cb/1527649736006-7W5T3A3VP4H241K77TXS/8_LazySu_lores.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/56025929e4b04ec82db521cb/1491695772518-0PXJXLVCVFMPLE4FSER0/lazy-canberra-brandworks?format=2500w",
+      "https://images.squarespace-cdn.com/content/v1/56025929e4b04ec82db521cb/1491446846855-OIJ64M439V60GP2UO640/image-asset.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/56025929e4b04ec82db521cb/1491695877991-3IK4LPNB9JCW5K3C5KLJ/lazy-canberra-brandworks?format=2500w"
+    ],
+    "short_description": "Funky Pan-Asian eatery offering a raw bar, bao burgers & small plates, plus hearty homestyle mains.",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  },
+  {
+    "id": 2,
+    "title": "OSH",
+    "primaryColor": "#E85D75",
+    "secondaryColor": "#FFFFFC",
+    "images": ["/images/OSH.jpg", "/images/OSH-2.jpeg"],
+    "short_description": "A modern study space is functional, minimalist, and sleek, featuring ergonomic furniture, high-tech equipment, natural lighting, and greenery to create a calming, focused, and productive ambiance.",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  },
+  {
+    "id": 3,
+    "title": "RMIT",
+    "primaryColor": "#70161E",
+    "secondaryColor": "#C3D898",
+    "images": [
+      "https://www.lyonsarch.com.au/wp-content/uploads/2020/01/2262-urban-design_New-Academic-Street_Lyons_Peter-Bennetts_04.jpg",
+      "/images/RMIT.png",
+      "/images/RMIT-2.png",
+      "/images/RMIT-3.png"
+    ],
+    "short_description": "RMIT is a global university of technology and design and Australia's largest tertiary institution.",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  },
+  {
+    "id": 4,
+    "title": "DEMO-1",
+    "primaryColor": "#4C956C",
+    "secondaryColor": "#FFC9B9",
+    "images": [
+      "https://images.unsplash.com/photo-1537726235470-8504e3beef77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1616046229478-9901c5536a45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    ],
+    "short_description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  },
+  {
+    "id": 5,
+    "title": "DEMO-2",
+    "primaryColor": "#34252F",
+    "secondaryColor": "#BEC5AD",
+    "images": [
+      "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    ],
+    "short_description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  },
+  {
+    "id": 6,
+    "title": "DEMO-3",
+    "primaryColor": "#7161EF",
+    "secondaryColor": "#EFD9CE",
+    "images": [
+      "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+      "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1213&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "https://images.unsplash.com/photo-1596204976717-1a9ff47f74ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+    ],
+    "short_description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  },
+  {
+    "id": 7,
+    "title": "DEMO-4",
+    "primaryColor": "#D6EDFF",
+    "secondaryColor": "#478978",
+    "images": [
+      "https://images.unsplash.com/photo-1622372738946-62e02505feb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=832&q=80",
+      "https://images.unsplash.com/photo-1618219944342-824e40a13285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+      "https://images.unsplash.com/photo-1618221639244-c1a8502c0eb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+    ],
+    "short_description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  },
+  {
+    "id": 8,
+    "title": "DEMO-5",
+    "primaryColor": "#56494C",
+    "secondaryColor": "#AFBFC0",
+    "images": [
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "https://images.unsplash.com/photo-1604782206219-3b9576575203?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=697&q=80"
+    ],
+    "short_description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  },
+  {
+    "id": 9,
+    "title": "DEMO-6",
+    "primaryColor": "#464E47",
+    "secondaryColor": "#F1FFFA",
+    "images": [
+      "https://images.unsplash.com/photo-1606744888344-493238951221?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "https://images.unsplash.com/photo-1615874694520-474822394e73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
+    ],
+    "short_description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  },
+  {
+    "id": 10,
+    "title": "DEMO-7",
+    "primaryColor": "#89023E",
+    "secondaryColor": "#F3E1DD",
+    "images": [
+      "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1606744824163-985d376605aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+    ],
+    "short_description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  },
+  {
+    "id": 11,
+    "title": "DEMO-8",
+    "primaryColor": "#002500",
+    "secondaryColor": "#EDCBB1",
+    "images": [
+      "https://images.unsplash.com/photo-1581783458534-001a466b5487?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80",
+      "https://images.unsplash.com/photo-1600493504591-aa1849716b36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+      "https://images.unsplash.com/photo-1617103996702-96ff29b1c467?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+    ],
+    "short_description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  },
+  {
+    "id": 12,
+    "title": "DEMO-9",
+    "primaryColor": "#8B575C",
+    "secondaryColor": "#F6E4F6",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1600210491369-e753d80a41f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
+    ],
+    "short_description": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit. Sed Euismod Nibh In Dui Lacinia, Auctor Tempor Nisl Lacin",
+    "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida eget orci sit amet faucibus. Aliquam venenatis massa a imperdiet laoreet. Morbi tempus urna sed sapien finibus, eu laoreet elit convallis. Aliquam tristique sapien malesuada, suscipit mauris vitae, consequat dui. Nullam nec dui nibh. Aliquam bibendum mollis iaculis. Cras metus ex, hendrerit eu aliquet non, euismod vitae arcu. Donec ac nunc consequat, vestibulum ante ut, efficitur mi. Nam placerat ultrices sem a aliquam. Duis quis elit et nisl euismod ultrices. Morbi placerat velit eget nunc ornare, et condimentum lorem aliquet. Proin eu vulputate sapien, quis ullamcorper metus. \nAliquam sit amet ornare ligula. Quisque tincidunt tortor tellus. Nunc suscipit justo vel nisl vestibulum dapibus. Vivamus convallis placerat malesuada. Nam a ultrices neque. Aliquam convallis, turpis sed efficitur venenatis, arcu nibh rhoncus enim, nec auctor massa quam ut augue. Sed convallis nibh vitae risus commodo porta. Nam lacinia luctus lorem quis feugiat. Aenean velit ligula, aliquam eu venenatis eu, finibus ac urna. Etiam dignissim neque vel felis porttitor, non dictum nisi imperdiet. Nulla porta, urna id tempus tristique, tellus lacus porta augue, eu egestas purus tellus quis sapien."
+  }
 ]

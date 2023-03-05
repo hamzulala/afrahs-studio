@@ -1,14 +1,16 @@
-import React from 'react'
-import { useRouter } from 'next/router'
-import Header from '@/components/Header'
-import projects from '@/data/projects.json'
+import React from "react";
+import { useRouter } from "next/router";
+import Header from "@/components/Header";
+import BlogMobile from "@/components/BlogMobile";
+import BlogDesktop from "@/components/BlogDesktop";
+import projects from "@/data/projects.json";
 
-type Props = {}
+type Props = {};
 
 const ProjectPost = (props: Props) => {
-  const router = useRouter()
-  const { slug } = router.query
-  const key: number = parseInt(slug as string)
+  const router = useRouter();
+  const { slug } = router.query;
+  const key: number = parseInt(slug as string);
   /*
   
           {
@@ -21,21 +23,22 @@ const ProjectPost = (props: Props) => {
   
   */
   return (
-    <div style={{backgroundColor: `${projects[key]?.primaryColor}`}} className='h-screen w-screen'>
-      <Header primaryColor={projects[key]?.primaryColor} secondaryColor={projects[key]?.secondaryColor}/>
-      <h1 style={{color: `${projects[key]?.secondaryColor}`}} className='mt-20 text-5xl text-center p-10'>{projects[key]?.title}</h1>
-      <div className='flex space-x-5 overflow-x-scroll h-96 p-5 snap-x snap-mandatory items-center'>
-        {
-          projects[key]?.images.map((image) => (
-              <img key={key} src={image} alt={projects[key].title} className='rounded-lg snap-center object-cover h-full w-full'/>
-          ))
-        }
+    <div
+      style={{ backgroundColor: `${projects[key]?.primaryColor}` }}
+      className="h-screen w-screen"
+    >
+      <Header
+        primaryColor={projects[key]?.primaryColor}
+        secondaryColor={projects[key]?.secondaryColor}
+      />
+      <div className="md:hidden tablet:h-1/2 top-20">
+        <BlogMobile project={projects[key]} />
       </div>
-      <p className='text:sm p-4' style={{color: `${projects[key]?.secondaryColor}`}}>
-        {projects[key]?.description}
-      </p>
+      <div className="hidden md:contents">
+        <BlogDesktop project={projects[key]} />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectPost
+export default ProjectPost;

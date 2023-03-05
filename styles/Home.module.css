@@ -7,7 +7,7 @@
   min-height: 100vh;
 }
 
-.description {
+.short_description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
@@ -18,14 +18,14 @@
   font-family: var(--font-mono);
 }
 
-.description a {
+.short_description a {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
 }
 
-.description p {
+.short_description p {
   position: relative;
   margin: 0;
   padding: 1rem;
@@ -203,23 +203,23 @@
     height: 300px;
   }
 
-  .description {
+  .short_description {
     font-size: 0.8rem;
   }
 
-  .description a {
+  .short_description a {
     padding: 1rem;
   }
 
-  .description p,
-  .description div {
+  .short_description p,
+  .short_description div {
     display: flex;
     justify-content: center;
     position: fixed;
     width: 100%;
   }
 
-  .description p {
+  .short_description p {
     align-items: center;
     inset: 0 0 auto;
     padding: 2rem 1rem 1.4rem;
@@ -235,7 +235,7 @@
     backdrop-filter: blur(24px);
   }
 
-  .description div {
+  .short_description div {
     align-items: flex-end;
     pointer-events: none;
     inset: auto 0 0;
