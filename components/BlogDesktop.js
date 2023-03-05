@@ -13,7 +13,7 @@ const BlogDesktop = ({ project }) => {
       >
         <h1
           style={{ color: `${project?.secondaryColor}` }}
-          className="text-5xl text-center pl-10 pr-10 pb-10"
+          className="text-5xl text-center p-10"
         >
           {project?.title}
         </h1>
