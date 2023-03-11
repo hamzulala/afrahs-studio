@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 const BlogDesktop = ({ project }) => {
   return (
-    <div className="h-screen grid grid-cols-2 overflow-hidden justify-items-center">
+    <div className="max-w-[1240px] h-screen space-x-10 m-auto grid grid-cols-2 justify-between">
       <motion.div
-        className="mt-20 overflow-x-scroll rounded-lg scrollbar"
+        className="mt-20 overflow-x-scroll rounded-lg scrollbar p-5 items-center"
         initial={{ opacity: 0, scale: 0.8, x: "-25%" }}
         exit={{ opacity: 0, scale: 0.8, x: "-25%" }}
         animate={{ opacity: 1, scale: 1, x: "0%" }}
@@ -13,12 +13,12 @@ const BlogDesktop = ({ project }) => {
       >
         <h1
           style={{ color: `${project?.secondaryColor}` }}
-          className="text-5xl text-center p-10"
+          className="text-5xl text-left pt-10 pb-10"
         >
           {project?.title}
         </h1>
         <p
-          className="text:lg pl-10 text-justify tracking-wide"
+          className="text:lg text-justify tracking-wide"
           style={{ color: `${project?.secondaryColor}` }}
         >
           {project?.long_description}

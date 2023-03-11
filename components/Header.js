@@ -55,9 +55,6 @@ const Header = ({ primaryColor = "#DDD5D0", secondaryColor = "#586F6B" }) => {
         >
           <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
             <li className="p-4 hover:underline underline-offset-1 hover:opacity-50">
-              <Link href="/">Home</Link>
-            </li>
-            <li className="p-4 hover:underline underline-offset-1 hover:opacity-50">
               <Link href="/portfolio">Portfolio</Link>
             </li>
             <li className="p-4 hover:underline underline-offset-1 hover:opacity-50">

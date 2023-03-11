@@ -45,10 +45,10 @@ const ImgCarouselDesktop = ({ projectId }) => {
             alt="Image"
             className="rounded-lg aspect-square object-cover shadow-lg"
           />
-          <h3 className="text-sm text-left tracking-wide font-semibold pt-1">
-            {projects[projectId].title} :{" "}
+          <h3 className="text-sm text-left tracking-wide font-semibold pt-2">
+            {projects[projectId].title}
           </h3>
-          <p className="text-xs text-left font-light tracking-tight pt-1 font-sans">
+          <p className="text-xs text-left font-light tracking-tight pt-2 font-sans">
             {projects[projectId].short_description}
           </p>
         </motion.div>

@@ -41,25 +41,32 @@ const HeroDesktop = ({ projectId }) => {
   return (
     <motion.div className="h-screen grid grid-cols-2 overflow-hidden justify-items-center">
       <motion.div
-        className="flex flex-col justify-center m-10"
+        className="flex flex-row justify-center items-center m-10"
         style={{ color: `${projects[projectId].secondaryColor}` }}
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         exit={{ opacity: 0, scale: 0.8, x: "-20%" }}
         transition={{ duration: 0.4, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
       >
+        <motion.div 
+          className="flex flex-col space-y-20"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.8, x: "-20%" }}
+          transition={{ duration: 0.4, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
+        >
+          <div className="-rotate-90 mb-4">
+            <h2 className="hidden hover:underline underline-offset-1 tracking-widest md:contents">
+              <Link href="/portfolio">Portfolio</Link>
+            </h2>
+          </div>
+          <div className="-rotate-90">
+            <h2 className="hidden hover:underline underline-offset-1 tracking-widest md:contents">
+              <Link href="/contact">About</Link>
+            </h2>
+          </div>
+        </motion.div>
         <LogoSVG size={logoSize} color={projects[projectId].secondaryColor} />
-        <div className="flex justify-around">
-          <h2 className="hidden hover:underline underline-offset-1 tracking-widest md:contents">
-            <Link href="/">Home</Link>
-          </h2>
-          <h2 className="hidden hover:underline underline-offset-1 tracking-widest md:contents">
-            <Link href="/portfolio">Portfolio</Link>
-          </h2>
-          <h2 className="hidden hover:underline underline-offset-1 tracking-widest md:contents">
-            <Link href="/contact">About</Link>
-          </h2>
-        </div>
       </motion.div>
       <motion.div
         className=" flex items-center justify-center m-10"
