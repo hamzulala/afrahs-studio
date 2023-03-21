@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Header from "@/components/Header";
 import BlogMobile from "@/components/BlogMobile";
@@ -11,17 +11,8 @@ const ProjectPost = (props: Props) => {
   const router = useRouter();
   const { slug } = router.query;
   const key: number = parseInt(slug as string);
-  /*
-  
-          {
-          projects[key]?.images.map((image) => (
-            <div key={key} className='aspect-square'>
-              <img src={image} alt={projects[key].title} className='flex rounded-lg h-full object-cover'/>
-            </div>
-          ))
-        }
-  
-  */
+
+
   return (
     <div
       style={{ backgroundColor: `${projects[key]?.primaryColor}` }}

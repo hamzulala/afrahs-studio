@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Cursor from "./Cursor";
 
 const BlogDesktop = ({ project }) => {
+  //cursor stuff
+  const [cursorVariant, setCursorVariant] = useState("defaultDifference");
+
+  const cursorBig = () => setCursorVariant("big");
+  const cursorMedium = () => setCursorVariant("medium");
+  const cursorDefault = () => setCursorVariant("default");
+  const cursorDefaultD = () => setCursorVariant("defaultDifference");
+
   return (
-    <div className="max-w-[1240px] h-screen space-x-10 m-auto grid grid-cols-2 justify-between">
+    <div className="max-w-[1240px] h-screen space-x-10 m-auto grid grid-cols-2 justify-between" style={{cursor: 'none'}}>
+      <Cursor
+        primaryColor={project?.primaryColor}
+        secondaryColor={project?.secondaryColor}
+        variant={cursorVariant}
+      />
       <motion.div
         className="mt-20 overflow-x-scroll rounded-lg scrollbar p-5 items-center"
         initial={{ opacity: 0, scale: 0.8, x: "-25%" }}
@@ -14,11 +28,15 @@ const BlogDesktop = ({ project }) => {
         <h1
           style={{ color: `${project?.secondaryColor}` }}
           className="text-5xl text-left pt-10 pb-10"
+          onMouseEnter={cursorMedium}
+          onMouseLeave={cursorDefaultD}
         >
           {project?.title}
         </h1>
         <p
           className="text:lg text-justify tracking-wide"
+          onMouseEnter={cursorBig}
+          onMouseLeave={cursorDefaultD}
           style={{ color: `${project?.secondaryColor}` }}
         >
           {project?.long_description}

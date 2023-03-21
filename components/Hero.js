@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import HeroDesktop from "@/components/HeroDesktop";
 import HeroMobile from "@/components/HeroMobile";
 import projects from "@/data/projects.json";
+import Cursor from "./Cursor";
 import { motion } from "framer-motion";
 
 const Hero = () => {

@@ -23,7 +23,7 @@ const Header = ({ primaryColor = "#DDD5D0", secondaryColor = "#586F6B" }) => {
         setColor(secondaryColor);
         setTextColor(primaryColor);
       } else {
-        setColor('transparent');
+        setColor("transparent");
         setTextColor(secondaryColor);
       }
     };
@@ -58,7 +58,7 @@ const Header = ({ primaryColor = "#DDD5D0", secondaryColor = "#586F6B" }) => {
               <Link href="/portfolio">Portfolio</Link>
             </li>
             <li className="p-4 hover:underline underline-offset-1 hover:opacity-50">
-              <Link href="/contact">About</Link>
+              <Link href="/about">About</Link>
             </li>
           </ul>
         </motion.div>
@@ -100,7 +100,7 @@ const Header = ({ primaryColor = "#DDD5D0", secondaryColor = "#586F6B" }) => {
               </Link>
             </li>
             <li className="p-4 text-4xl">
-              <Link href="/contact">
+              <Link href="/about">
                 <h3>About</h3>
               </Link>
             </li>

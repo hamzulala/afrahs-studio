@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import ProjectImgLink from "@/components/ProjectImgLink";
 import projects from "@/data/projects.json";
 import { motion } from "framer-motion";
+import Cursor from "@/components/Cursor";
 
 type Props = {};
 
@@ -25,6 +26,7 @@ const Portfolio = (props: Props) => {
       className="flex  items-center justify-center h-screen ease-in duration-300"
       style={{ backgroundColor: `${primaryColor}` }}
     >
+      <Cursor primaryColor={primaryColor} secondaryColor={secondaryColor}/>
       <Header primaryColor={primaryColor} secondaryColor={secondaryColor} />
       {/*
        * Should be a dynamic list of all projects
