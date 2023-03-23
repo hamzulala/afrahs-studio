@@ -14,6 +14,7 @@ const ProjectImgLink = ({ project, handleProjectHover }) => {
       exit={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.4, delay: 0.5, ease: [0, 0.71, 0.2, 1] }}
+      style={{ cursor: "none" }}
     >
       <div
         className="relative overflow-hidden rounded-lg"

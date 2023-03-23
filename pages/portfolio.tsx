@@ -26,14 +26,13 @@ const Portfolio = (props: Props) => {
       className="flex  items-center justify-center h-screen ease-in duration-300"
       style={{ backgroundColor: `${primaryColor}` }}
     >
-      <Cursor primaryColor={primaryColor} secondaryColor={secondaryColor}/>
       <Header primaryColor={primaryColor} secondaryColor={secondaryColor} />
       {/*
        * Should be a dynamic list of all projects
        */}
       <div
         className="absolute columns-2 md:columns-3 lg:columns-4 p-4 top-20 ease-in duration-300"
-        style={{ backgroundColor: `${primaryColor}` }}
+        style={{ backgroundColor: `${primaryColor}`}}
       >
         {projects.map((project) => (
           <ProjectImgLink
