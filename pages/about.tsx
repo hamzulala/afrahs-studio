@@ -2,6 +2,7 @@ import Header from "@/components/Header"
 import React from "react"
 import Origin from "@/components/Origin"
 import AwardsList from "@/components/AwardsList"
+import AboutMe from "@/components/AboutMe"
 
 type Props = {};
 
@@ -14,6 +15,7 @@ const About = (props: Props) => {
       <Origin/>
       <div className="flex flex-row">
         <AwardsList/>
+        <AboutMe/>
       </div>
     </div>
   );
