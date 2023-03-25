@@ -13,7 +13,7 @@ const About = (props: Props) => {
     <div className="flex flex-col items-center justify-center h-screen">
       <Header />
       <Origin/>
-      <div className="flex flex-row">
+      <div className="flex flex-row space-x-10">
         <AwardsList/>
         <AboutMe/>
       </div>
