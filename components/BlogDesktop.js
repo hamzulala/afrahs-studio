@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Cursor from "./Cursor";
+import { urlFor } from "@/sanity";
 
 const BlogDesktop = ({ project }) => {
   //cursor stuff
@@ -53,7 +54,7 @@ const BlogDesktop = ({ project }) => {
         {project?.images.map((image) => (
           <img
             key={Math.random()}
-            src={image}
+            src={urlFor(image)}
             alt={project?.title}
             className="rounded-lg snap-center object-cover h-full w-full"
           />

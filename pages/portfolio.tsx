@@ -2,13 +2,17 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import React, { useState } from "react";
 import ProjectImgLink from "@/components/ProjectImgLink";
-import projects from "@/data/projects.json";
 import { motion } from "framer-motion";
 import Cursor from "@/components/Cursor";
+import { Project } from '../typings'
+import { GetStaticProps } from "next";
+import { fetchProjects } from '../utils/fetchProjects'
 
-type Props = {};
+type Props = {
+  project: Project[];
+}
 
-const Portfolio = (props: Props) => {
+const Portfolio = ({project}: Props) => {
   const [primaryColor, setPrimaryColor] = useState<string>("#B3A394");
   const [secondaryColor, setSecondaryColor] = useState<string>("#102542");
 
@@ -34,10 +38,10 @@ const Portfolio = (props: Props) => {
         className="absolute columns-2 md:columns-3 lg:columns-4 p-4 top-20 ease-in duration-300"
         style={{ backgroundColor: `${primaryColor}`}}
       >
-        {projects.map((project) => (
+        {project.map((projec) => (
           <ProjectImgLink
-            key={project.id}
-            project={project}
+            key={projec._id}
+            project={projec}
             handleProjectHover={handleProjectHover}
           />
         ))}
@@ -47,3 +51,15 @@ const Portfolio = (props: Props) => {
 };
 
 export default Portfolio;
+
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const project: Project[] = await fetchProjects();
+
+  return {
+    props: {
+      project
+    },
+
+    revalidate: 10 // 24 hours
+  }
+}

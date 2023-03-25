@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
+import { urlFor } from "@/sanity";
 
 const ProjectImgLink = ({ project, handleProjectHover }) => {
   const handleHover = () => {
@@ -20,9 +21,9 @@ const ProjectImgLink = ({ project, handleProjectHover }) => {
         className="relative overflow-hidden rounded-lg"
         onMouseEnter={handleHover}
       >
-        <Link href="/blog/[slug]" as={`/blog/${project.id}`}>
+        <Link href="/blog/[slug]" as={`/blog/${project._id}`}>
           <img
-            src={project.images[0]}
+            src={urlFor(project.images[0])}
             className="hover:scale-110 shadow-lg transition duration-300 ease-in-out brightness-50 hover:rounded-lg hover:brightness-100"
           />
           <div className="absolute bottom-0 right-0 shadow-lg">

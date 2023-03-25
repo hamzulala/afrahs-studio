@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { urlFor } from "@/sanity";
 
 const BlogMobile = ({ project }) => {
   return (
@@ -20,7 +21,7 @@ const BlogMobile = ({ project }) => {
         {project?.images.map((image) => (
           <img
             key={Math.random()}
-            src={image}
+            src={urlFor(image)}
             alt={project?.title}
             className="rounded-lg snap-center object-cover h-full w-full"
           />
