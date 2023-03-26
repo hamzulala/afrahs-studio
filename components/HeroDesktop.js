@@ -6,7 +6,7 @@ import projects from "@/data/projects.json";
 import { AnimatePresence, motion } from "framer-motion";
 import Cursor from "./Cursor";
 
-const HeroDesktop = ({ projectId }) => {
+const HeroDesktop = ({ project }) => {
   /** LANDING PAGE FOR DESKTOP VIEW
    *
    */
@@ -57,13 +57,13 @@ const HeroDesktop = ({ projectId }) => {
       style={{ cursor: "none" }}
     >
       <Cursor
-        primaryColor={projects[projectId].primaryColor}
-        secondaryColor={projects[projectId].secondaryColor}
+        primaryColor={project.primaryColor}
+        secondaryColor={project.secondaryColor}
         variant={cursorVariant}
       />
       <motion.div
         className="flex flex-row justify-center items-center m-10"
-        style={{ color: `${projects[projectId].secondaryColor}` }}
+        style={{ color: `${project.secondaryColor}` }}
         onMouseEnter={cursorBig}
         onMouseLeave={cursorDefault}
         initial={{ opacity: 0, scale: 0.8 }}
@@ -95,14 +95,14 @@ const HeroDesktop = ({ projectId }) => {
             </h2>
           </div>
         </motion.div>
-        <LogoSVG size={logoSize} color={projects[projectId].secondaryColor} />
+        <LogoSVG size={logoSize} color={project.secondaryColor} />
       </motion.div>
       <motion.div
         className=" flex items-center justify-center m-10"
         exit={{ opacity: 0, scale: 0.8, x: "20%" }}
         transition={{ duration: 0.4, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
       >
-        <ImgCarouselDesktop projectId={projectId} />
+        <ImgCarouselDesktop project={project} />
       </motion.div>
     </motion.div>
   );

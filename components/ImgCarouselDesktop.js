@@ -3,8 +3,9 @@ import React, { useState, useEffect } from "react";
 import projects from "@/data/projects.json";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { urlFor } from "@/sanity";
 
-const ImgCarouselDesktop = ({ projectId }) => {
+const ImgCarouselDesktop = ({ project }) => {
   /* 
         Rotate Images with short_description
 
@@ -16,10 +17,10 @@ const ImgCarouselDesktop = ({ projectId }) => {
      */
 
   return (
-    <div key={projectId}>
+    <div key={project._id}>
       <Link
         href="/blog/[slug]"
-        as={`/blog/${projectId}`}
+        as={`/blog/${project._id}`}
         className="grid grid-cols-2"
       >
         <motion.div
@@ -29,7 +30,7 @@ const ImgCarouselDesktop = ({ projectId }) => {
           transition={{ duration: 0.8, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
         >
           <img
-            src={projects[projectId].images[0]}
+            src={urlFor(project.images[0])}
             alt="Image"
             className="rounded-lg aspect-[2/3] object-cover shadow-lg"
           />
@@ -41,15 +42,15 @@ const ImgCarouselDesktop = ({ projectId }) => {
           transition={{ duration: 0.8, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
         >
           <img
-            src={projects[projectId].images[1]}
+            src={urlFor(project.images[1])}
             alt="Image"
             className="rounded-lg aspect-square object-cover shadow-lg"
           />
           <h3 className="text-sm text-left tracking-wide font-semibold pt-2">
-            {projects[projectId].title}
+            {project.title}
           </h3>
           <p className="text-xs text-left font-light tracking-tight pt-2 font-sans">
-            {projects[projectId].short_description}
+            {project.short_description}
           </p>
         </motion.div>
       </Link>
