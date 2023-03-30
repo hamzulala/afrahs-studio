@@ -1,6 +1,6 @@
 import React from "react";
 import ImgCarouselMobile from "./ImgCarouselMobile";
-import projects from "@/data/projects.json";
+//import projects from "@/data/projects.json";
 import Header from "./Header";
 import { motion } from "framer-motion";
 

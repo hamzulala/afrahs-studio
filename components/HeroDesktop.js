@@ -33,10 +33,10 @@ const HeroDesktop = ({ project }) => {
         setTextSize(10);
       } else if (windowWidth < 1024) {
         setLogoSize(300);
-        setTextSize(10);
+        setTextSize(12);
       } else {
         setLogoSize(500);
-        setTextSize(10);
+        setTextSize(15);
       }
     };
 
