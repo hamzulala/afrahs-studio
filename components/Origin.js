@@ -1,15 +1,9 @@
 import React from "react";
-import MapFx from "./MapFx";
 
 const Origin = () => {
   return (
     <div className="flex flex-row space-x-10 m-5">
       <div className="h-1/3 w-1/3">
-        <MapFx
-          src1="/images/map/chennai_mono.png"
-          src2="/images/map/chennai_color.png"
-          alt="Chennai Map"
-        />
       </div>
       <div className="w-1/3 h-full space-y-5">
         <h1 className="text-4xl">Origin</h1>
