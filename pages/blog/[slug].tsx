@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import Header from "@/components/Header";
 import BlogMobile from "@/components/BlogMobile";
 import BlogDesktop from "@/components/BlogDesktop";
-import projects from "@/data/projects.json";
 import { Project } from "@/typings";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { fetchProjects } from '../../utils/fetchProjects'
