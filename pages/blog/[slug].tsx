@@ -55,7 +55,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
       project
     },
 
-    revalidate: 10 // 24 hours
+    revalidate: 10 
   }
 }
 
