@@ -6,7 +6,7 @@ import BlogDesktop from "@/components/BlogDesktop";
 import { Project } from "@/typings";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { fetchProjects } from '../../utils/fetchProjects'
-
+//FIXED SANITY DEPLOYMENT!!!!
 type Props = {
   project: Project[];
 }
