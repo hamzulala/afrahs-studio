@@ -16,7 +16,7 @@ const ProjectPost = ({project}: Props) => {
   const { slug } = router.query;
   const key: number = parseInt(slug as string);
   const projectID = slug?.toString();
-  const projectMatch = project?.find(p => p._id === projectID); //getting error here
+  const projectMatch = project?.find(p => p._id === projectID);
 
   console.log(projectMatch);
 
@@ -60,8 +60,8 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const projects: Project[] = await fetchProjects();
-  const paths = projects.map(project => ({
-    params: { slug: project._id.toString() }
+  const paths = projects?.map(project => ({
+    params: { slug: project?._id.toString() }
   }));
 
   return {
