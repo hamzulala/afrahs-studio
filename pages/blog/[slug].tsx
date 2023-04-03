@@ -61,7 +61,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 export const getStaticPaths: GetStaticPaths = async () => {
   const projects: Project[] = await fetchProjects();
   const paths = projects?.map(project => ({
-    params: { slug: project?._id.toString() }
+    params: { slug: project?._id }
   }));
 
   return {
