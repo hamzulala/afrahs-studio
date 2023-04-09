@@ -2,7 +2,7 @@ import React from 'react'
 
 const AwardsList = () => {
   return (
-    <div className='space-y-2 space-x-2'>
+    <div className='flex flex-col space-y-2 space-x-2 w-full'>
         <h1 className='text-3xl'>Awards / Nominations</h1>
         <ul className='list-disc list-inside'>
             <li>Grammys Nomination</li>

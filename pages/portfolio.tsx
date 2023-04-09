@@ -35,7 +35,7 @@ const Portfolio = ({project}: Props) => {
        * Should be a dynamic list of all projects
        */}
       <div
-        className="absolute columns-2 md:columns-3 lg:columns-4 p-4 top-20 ease-in duration-300"
+        className="absolute columns-2 md:columns-3 max-w-[1240px] lg:columns-4 p-4 top-20 ease-in duration-300"
         style={{ backgroundColor: `${primaryColor}`}}
       >
         {project.map((projec) => (
