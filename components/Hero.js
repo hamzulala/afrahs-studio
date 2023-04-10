@@ -6,9 +6,17 @@ import { motion } from "framer-motion";
 import { GetStaticProps } from "next";
 import { fetchProjects } from "../utils/fetchProjects";
 import LogoSVG from "./LogoSVG";
+import Cursor from "./Cursor";
 
 const Hero = () => {
   const [project, setProject] = useState();
+    //cursor stuff
+    const [cursorVariant, setCursorVariant] = useState("none");
+
+    const cursorBig = () => setCursorVariant("big");
+    const cursorMedium = () => setCursorVariant("medium");
+    const cursorDefault = () => setCursorVariant("default");
+    const cursorDefaultD = () => setCursorVariant("defaultDifference");
 
   useEffect(() => {
     /*
@@ -31,18 +39,27 @@ const Hero = () => {
     });
   }, []);
 
-  if (!project) { // Loading Screen
-    
+  if (!project) {
+    // Loading Screen
+
     console.log(project);
     return (
       <motion.div
         className="h-screen flex flex-col bg-[#773344] space-y-8 items-center justify-center overflow-hidden ease-in duration-300"
         transition={{ duration: 0.8, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
         exit={{ opacity: 0, scale: 0.8, x: "-200%" }}
+        onMouseEnter={cursorDefault}
       >
+        <Cursor
+          primaryColor={'#773344'}
+          secondaryColor={'#9CFFFA'}
+          variant={cursorVariant}
+        />
         <motion.div
-        transition={{ duration: 0.8, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
-        exit={{ opacity: 0, scale: 0.8, x: "-200%" }}
+          transition={{ duration: 0.8, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
+          exit={{ opacity: 0, scale: 0.8, x: "-200%" }}
+          onMouseEnter={cursorBig}
+          onMouseLeave={cursorDefault}
         >
           <LogoSVG size={400} color="#9CFFFA" />
         </motion.div>

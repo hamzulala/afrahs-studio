@@ -15,11 +15,12 @@ const HeroDesktop = ({ project }) => {
   const [textSize, setTextSize] = useState(17);
 
   //cursor stuff
-  const [cursorVariant, setCursorVariant] = useState("default");
+  const [cursorVariant, setCursorVariant] = useState("none");
 
   const cursorBig = () => setCursorVariant("big");
   const cursorMedium = () => setCursorVariant("medium");
   const cursorDefault = () => setCursorVariant("default");
+  const cursorDefaultD = () => setCursorVariant("defaultDifference");
 
   useEffect(() => {
     const handleResize = () => {
@@ -101,6 +102,8 @@ const HeroDesktop = ({ project }) => {
         className=" flex items-center justify-center m-10"
         exit={{ opacity: 0, scale: 0.8, x: "20%" }}
         transition={{ duration: 0.4, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
+        onMouseEnter={cursorDefaultD}
+        onMouseLeave={cursorDefault}
       >
         <ImgCarouselDesktop project={project} />
       </motion.div>

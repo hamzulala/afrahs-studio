@@ -1,9 +1,10 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { urlFor } from "@/sanity";
 
 const ProjectImgLink = ({ project, handleProjectHover }) => {
+
   const handleHover = () => {
     //handles hover event for project image
     handleProjectHover(project.primaryColor, project.secondaryColor);
