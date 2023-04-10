@@ -51,7 +51,7 @@ const Portfolio = ({ project }: Props) => {
         className="absolute columns-2 md:columns-3 max-w-[1240px] lg:columns-4 p-4 top-20 ease-in duration-300"
         style={{ backgroundColor: `${primaryColor}` }}
         onMouseEnter={cursorMedium}
-        onMouseLeave={cursorDefaultD}
+        onMouseLeave={cursorDefault}
       >
         {project.map((projec) => (
           <ProjectImgLink
