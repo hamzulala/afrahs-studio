@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
+
+
 const Cursor = ({ primaryColor, secondaryColor, variant = "none" }) => {
   const [mousePosition, setMousePosition] = useState({
     x: -10,
@@ -57,11 +59,11 @@ const Cursor = ({ primaryColor, secondaryColor, variant = "none" }) => {
     },
   };
 
-  useEffect(() => {
+  useEffect(() => { 
     setCursorVariant(variant);
   }, [variant]);
 
-  const cursor = {
+  const cursor = { 
     backgroundColor: `${secondaryColor}`,
     height: "32px",
     width: "32px",

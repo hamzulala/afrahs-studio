@@ -24,8 +24,8 @@ export interface Project extends SanityBody {
 }
 
 export interface About extends SanityBody {
-    _type: 'about';
-    origin: string;
-    about_me: string;
+    _type: 'about'; // this is the type of the document
+    origin: string; 
+    about_me: string; 
     awards: string[];
 }

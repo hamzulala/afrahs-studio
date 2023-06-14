@@ -19,9 +19,6 @@ const Hero = () => {
     const cursorDefaultD = () => setCursorVariant("defaultDifference");
 
   useEffect(() => {
-    /*
-        need to refactor ths code to work with sanity
-     */
 
     fetchProjects().then((projects) => {
       //loop though all projects every 5 seconds
