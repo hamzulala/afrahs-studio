@@ -15,13 +15,13 @@ type Props = {
 
 const About = ({about}: Props) => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <Header />
+    <div className="flex flex-col items-center justify-center h-screen bg-[#0A2342]">
+      <Header primaryColor="#0A2342" secondaryColor="#FDE8E9"/>
       <div className="max-w-[1240px] space-x-5 space-y-5 h-screen mt-20 pt-10">
-        <Origin about={about}/>
+        <Origin about={about} colour="#F46197"/>
         <div className="flex flex-col md:flex-row space-x-10">
-          <AwardsList about={about}/>
-          <AboutMe about={about}/>
+          <AwardsList about={about} colour="#84BC9C"/>
+          <AboutMe about={about} colour="#F7A072"/>
         </div>
       </div>
     </div>
